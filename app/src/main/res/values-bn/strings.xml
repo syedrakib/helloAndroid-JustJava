@@ -1,0 +1,21 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">শুধু জাভা</string>
+    <string name="your_name">আপনার নাম</string>
+    <string name="quantity">কয় কাপ</string>
+    <string name="toppings">টপিংস</string>
+    <string name="chocolate">চকলেট</string>
+    <string name="strawberry">স্ট্রবেরী</string>
+    <string name="whipped_cream">হুইপড ক্রিম</string>
+    <string name="price">মোট দাম</string>
+    <string name="order">অর্ডার</string>
+    <string name="order_summary">অর্ডার সারাংশ</string>
+    <string name="order_summary_contents">
+"নাম: <xliff:g id="customerName" example="Rakib">%s</xliff:g>
+পরিমাণ: <xliff:g id="orderQuantity" example="3">%d</xliff:g>
+চকলেট? <xliff:g id="shouldAddChocolate" example="true">%b</xliff:g>
+স্ট্রবেরী? <xliff:g id="shouldAddStrawberry" example="false">%b</xliff:g>
+হুইপড ক্রিম? <xliff:g id="shouldAddWhippedCream" example="true">%b</xliff:g>
+মোট দাম: <xliff:g id="finalOrderPrice" example="USD 23">%s</xliff:g>"
+    </string>
+    <string name="confirm">নিশ্চিত</string>
+</resources>
