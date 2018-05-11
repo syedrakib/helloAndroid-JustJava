@@ -101,20 +101,15 @@ public class MainActivity extends AppCompatActivity {
      * This method calculates total price of order.
      */
     private void calculateTotalPrice() {
-        if (numberOfCoffee > 0) {
-            int pricePerCoffee = coffeeRate;
-            if (addChocolate) {
-                pricePerCoffee += chocolateRate;
-            }
-            if (addStrawberry) {
-                pricePerCoffee += strawberryRate;
-            }
-            if (addWhippedCream) {
-                pricePerCoffee += whippedCreamRate;
-            }
-            totalPrice = pricePerCoffee * numberOfCoffee;
-            displayTotalPrice();
-        }
+        int pricePerCoffee = coffeeRate;
+        if (addChocolate)
+            pricePerCoffee += chocolateRate;
+        if (addStrawberry)
+            pricePerCoffee += strawberryRate;
+        if (addWhippedCream)
+            pricePerCoffee += whippedCreamRate;
+        totalPrice = pricePerCoffee * numberOfCoffee;
+        displayTotalPrice();
     }
 
     /**
@@ -142,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
         else{
             disappearOrderSummary();
             Toast.makeText(
-                    this, "Cannot order 0 items", Toast.LENGTH_SHORT
+                    this, "Cannot order 0 item", Toast.LENGTH_SHORT
             ).show();
         }
     }
