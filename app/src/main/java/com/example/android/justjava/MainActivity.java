@@ -11,8 +11,10 @@ package com.example.android.justjava;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -133,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
     public void submitOrder(View view) {
         if (numberOfCoffee > 0) {
             displayOrderSummary();
+            scrollToOrderConfirmationButton();
         }
         else{
             disappearOrderSummary();
@@ -140,6 +143,15 @@ public class MainActivity extends AppCompatActivity {
                     this, "Cannot order 0 item", Toast.LENGTH_SHORT
             ).show();
         }
+    }
+
+    /**
+     * This method scrolls the page to the order confirmation butotn
+     */
+    private void scrollToOrderConfirmationButton(){
+        Button confirmationButton = (Button) findViewById(R.id.confirmation_button);
+        ScrollView parentScrollView = (ScrollView) findViewById(R.id.parent_scrollview);
+        parentScrollView.smoothScrollTo(0, (int) confirmationButton.getY());
     }
 
     /**
