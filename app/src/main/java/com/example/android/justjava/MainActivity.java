@@ -8,6 +8,8 @@
 
 package com.example.android.justjava;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -194,7 +196,23 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when user finally confirms his/her order
      */
     public void confirmOrder(View view){
+        TextView orderSummaryTextView = (TextView) findViewById(R.id.order_summary_text_view);
+        sendEmail(orderSummaryTextView.getText().toString());
+        disappearOrderSummary();
+    }
 
+    /**
+     * This method simply sends an email to place the order
+     */
+    private void sendEmail(String emailContents){
+        Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
+        emailIntent.setData(Uri.parse("mailto:"));
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"rakib@example.com"});
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Get me Coffee");
+        emailIntent.putExtra(Intent.EXTRA_TEXT, emailContents);
+        if (emailIntent.resolveActivity(getPackageManager()) != null) {
+            startActivity(emailIntent);
+        }
     }
 
 }
