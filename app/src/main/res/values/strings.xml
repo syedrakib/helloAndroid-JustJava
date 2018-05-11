@@ -9,5 +9,13 @@
     <string name="price">Price</string>
     <string name="order">Order</string>
     <string name="order_summary">Order summary</string>
+    <string name="order_summary_contents">
+"Name: %s
+Quantity: %d
+Add Chocolate? %b
+Add Strawberry? %b
+Add Whipped cream? %b
+Total price: %s"
+    </string>
     <string name="confirm">Confirm</string>
 </resources>

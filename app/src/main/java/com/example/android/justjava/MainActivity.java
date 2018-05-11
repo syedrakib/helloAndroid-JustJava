@@ -172,15 +172,13 @@ public class MainActivity extends AppCompatActivity {
     private String createOrderSummary(){
         EditText customerNameField = (EditText) findViewById(R.id.customer_name_field);
         String customerName = customerNameField.getText().toString();
-
-        String orderSummary = "" +
-                "Name: " + customerName + "\n" +
-                "Quantity: " + numberOfCoffee + "\n" +
-                "Add Chocolate? " + addChocolate + "\n" +
-                "Add Strawberry? " + addStrawberry + "\n" +
-                "Add Whipped cream? " + addWhippedCream + "\n" +
-                "Total price: " + getFormattedPrice(totalPrice);
-
+        String orderSummary = getString(
+            R.string.order_summary_contents,
+            customerName,
+            numberOfCoffee,
+            addChocolate, addStrawberry, addWhippedCream,
+            getFormattedPrice(totalPrice)
+        );
         return orderSummary;
     }
 
