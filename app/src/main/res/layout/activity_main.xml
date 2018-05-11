@@ -22,7 +22,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginStart="16dp"
-            android:hint="Your name"
+            android:hint="@string/your_name"
             android:inputType="textCapWords"
             android:textAllCaps="true"
             />
@@ -33,9 +33,8 @@
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Quantity"
+            android:text="@string/quantity"
             android:textAllCaps="true"
-            tools:ignore="HardcodedText"
             />
 
         <LinearLayout
@@ -84,9 +83,8 @@
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Toppings"
+            android:text="@string/toppings"
             android:textAllCaps="true"
-            tools:ignore="HardcodedText"
             />
 
         <CheckBox
@@ -97,7 +95,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="4dp"
             android:textSize="16sp"
-            android:text="Chocolate"
+            android:text="@string/chocolate"
             android:onClick="setChocolateTopping"
             />
 
@@ -109,7 +107,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="4dp"
             android:textSize="16sp"
-            android:text="Strawberry"
+            android:text="@string/strawberry"
             android:onClick="setStrawberryTopping"
             />
 
@@ -121,7 +119,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="4dp"
             android:textSize="16sp"
-            android:text="Whipped cream"
+            android:text="@string/whipped_cream"
             android:onClick="setWhippedCreamTopping"
             />
 
@@ -131,9 +129,8 @@
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Price"
+            android:text="@string/price"
             android:textAllCaps="true"
-            tools:ignore="HardcodedText"
             />
 
         <TextView
@@ -159,8 +156,7 @@
             android:onClick="submitOrder"
             android:paddingLeft="40dp"
             android:paddingRight="40dp"
-            android:text="Order"
-            tools:ignore="HardcodedText"
+            android:text="@string/order"
             />
 
         <LinearLayout
@@ -185,9 +181,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Order summary"
+                android:text="@string/order_summary"
                 android:textAllCaps="true"
-                tools:ignore="HardcodedText"
                 />
 
             <TextView
@@ -198,15 +193,14 @@
                 android:text="---"
                 android:textColor="#000"
                 android:textSize="16sp"
-                tools:ignore="HardcodedText"
-                />
+                tools:ignore="HardcodedText" />
 
             <Button
                 android:id="@+id/confirmation_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Confirm"
+                android:text="@string/confirm"
                 android:textSize="16sp"
                 android:onClick="confirmOrder"
                 />
