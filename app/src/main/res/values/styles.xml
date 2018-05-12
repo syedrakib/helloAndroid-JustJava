@@ -8,13 +8,24 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="myCoffeeTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/myCoffeeTheme_brown</item>
+        <item name="colorPrimaryDark">@color/myCoffeeTheme_darkBrown</item>
+        <item name="colorAccent">@color/myCoffeeTheme_brown</item>
+        <item name="colorButtonNormal">@color/myCoffeeTheme_beige</item>
+        <item name="android:windowBackground">@color/myCoffeeTheme_white</item>
+        <item name="android:textColor">@color/myCoffeeTheme_darkBrown</item>
+        <item name="android:textColorPrimary">@color/myCoffeeTheme_black</item>>
+        <item name="android:textColorSecondary">@color/myCoffeeTheme_darkBrown</item>
+    </style>
+
     <style name="sectionHeaderText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/regularMargin</item>
         <item name="android:layout_marginLeft">@dimen/regularMargin</item>
         <item name="android:layout_marginRight">@dimen/regularMargin</item>
-        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
         <item name="android:textAllCaps">true</item>
     </style>
 
@@ -24,7 +35,7 @@
         <item name="android:layout_marginTop">@dimen/regularMargin</item>
         <item name="android:layout_marginLeft">@dimen/regularMargin</item>
         <item name="android:layout_marginRight">@dimen/regularMargin</item>
-        <item name="android:textColor">@color/regularText</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:textSize">@dimen/regularTextSize</item>
     </style>
 
@@ -34,12 +45,14 @@
         <item name="android:layout_marginTop">@dimen/smallMargin</item>
         <item name="android:layout_marginLeft">@dimen/regularMargin</item>
         <item name="android:layout_marginRight">@dimen/regularMargin</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:textSize">@dimen/regularTextSize</item>
     </style>
 
     <style name="counterButton">
         <item name="android:layout_width">@dimen/counterButtonSize</item>
         <item name="android:layout_height">@dimen/counterButtonSize</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="tightButton">
@@ -65,7 +78,7 @@
     <style name="horizontalLine">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
-        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:background">?colorPrimary</item>
         <item name="android:layout_marginTop">@dimen/regularMargin</item>
         <item name="android:layout_marginLeft">@dimen/regularMargin</item>
         <item name="android:layout_marginRight">@dimen/regularMargin</item>

@@ -3,5 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="regularText">#000000</color>
+
+    <!-- Colors for myCoffeeTheme -->
+    <color name="myCoffeeTheme_darkBrown">#5D4037</color>
+    <color name="myCoffeeTheme_brown">#795548</color>
+    <color name="myCoffeeTheme_lightBrown">#A1887F</color>
+    <color name="myCoffeeTheme_beige">#D7CCC8</color>
+    <color name="myCoffeeTheme_black">#111111</color>
+    <color name="myCoffeeTheme_grey">#757575</color>
+    <color name="myCoffeeTheme_white">#EFEBE9</color>
 </resources>

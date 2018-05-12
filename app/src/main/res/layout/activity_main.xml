@@ -51,7 +51,6 @@
                 android:layout_marginLeft="@dimen/regularMargin"
                 android:layout_marginRight="@dimen/regularMargin"
                 android:text="----"
-                android:textColor="#000"
                 android:textSize="@dimen/regularTextSize"
                 android:textStyle="bold"
                 tools:ignore="HardcodedText"
