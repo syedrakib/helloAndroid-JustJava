@@ -8,6 +8,7 @@
 
 package com.example.android.justjava;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -172,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
     private String createOrderSummary(){
         EditText customerNameField = (EditText) findViewById(R.id.customer_name_field);
         String customerName = customerNameField.getText().toString();
-        String orderSummary = getString(
+        @SuppressLint({"StringFormatInvalid", "LocalSuppress"}) String orderSummary = getString(
             R.string.order_summary_contents,
             customerName,
             numberOfCoffee,
