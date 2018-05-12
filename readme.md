@@ -7,9 +7,12 @@
 * User can set toppings.
 * User can see the total price.
 * User can confirm the order which will fire up an email client with the order summary.
+* Uses colors.xml dimens.xml strings.xml styles.xml to control look & feel centrally
+* Uses bangla language for localization
+* Uses multiple themes
 
 Simple App.
 
 ![Imgur](https://i.imgur.com/Df7FlkYl.png)
-
 ![Imgur](https://i.imgur.com/veJAc36l.png)
+![Imgur](https://i.imgur.com/GWpnDaNl.png)
