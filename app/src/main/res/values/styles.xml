@@ -64,6 +64,7 @@
         <item name="android:paddingLeft">@dimen/regularButtonPadding</item>
         <item name="android:paddingRight">@dimen/regularButtonPadding</item>
         <item name="android:textSize">@dimen/regularTextSize</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="wideButton">
@@ -73,6 +74,7 @@
         <item name="android:layout_marginLeft">@dimen/regularMargin</item>
         <item name="android:layout_marginRight">@dimen/regularMargin</item>
         <item name="android:textSize">@dimen/regularTextSize</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="horizontalLine">
