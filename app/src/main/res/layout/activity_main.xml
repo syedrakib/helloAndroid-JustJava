@@ -154,8 +154,8 @@
             android:layout_marginStart="@dimen/medium_margin"
             android:layout_marginTop="@dimen/medium_margin"
             android:onClick="submitOrder"
-            android:paddingLeft="40dp"
-            android:paddingRight="40dp"
+            android:paddingLeft="@dimen/order_button_padding"
+            android:paddingRight="@dimen/order_button_padding"
             android:text="@string/order"
             />
 
