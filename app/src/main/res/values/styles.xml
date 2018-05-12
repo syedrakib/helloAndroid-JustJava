@@ -11,9 +11,9 @@
     <style name="sectionHeaderText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/regular_margin</item>
-        <item name="android:layout_marginLeft">@dimen/regular_margin</item>
-        <item name="android:layout_marginRight">@dimen/regular_margin</item>
+        <item name="android:layout_marginTop">@dimen/regularMargin</item>
+        <item name="android:layout_marginLeft">@dimen/regularMargin</item>
+        <item name="android:layout_marginRight">@dimen/regularMargin</item>
         <item name="android:textColor">@color/colorPrimary</item>
         <item name="android:textAllCaps">true</item>
     </style>
@@ -21,54 +21,54 @@
     <style name="regularText">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/regular_margin</item>
-        <item name="android:layout_marginLeft">@dimen/regular_margin</item>
-        <item name="android:layout_marginRight">@dimen/regular_margin</item>
+        <item name="android:layout_marginTop">@dimen/regularMargin</item>
+        <item name="android:layout_marginLeft">@dimen/regularMargin</item>
+        <item name="android:layout_marginRight">@dimen/regularMargin</item>
         <item name="android:textColor">@color/regularText</item>
-        <item name="android:textSize">@dimen/regular_text_size</item>
+        <item name="android:textSize">@dimen/regularTextSize</item>
     </style>
 
     <style name="regularCheckbox">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/small_margin</item>
-        <item name="android:layout_marginLeft">@dimen/regular_margin</item>
-        <item name="android:layout_marginRight">@dimen/regular_margin</item>
-        <item name="android:textSize">@dimen/regular_text_size</item>
+        <item name="android:layout_marginTop">@dimen/smallMargin</item>
+        <item name="android:layout_marginLeft">@dimen/regularMargin</item>
+        <item name="android:layout_marginRight">@dimen/regularMargin</item>
+        <item name="android:textSize">@dimen/regularTextSize</item>
     </style>
 
     <style name="counterButton">
-        <item name="android:layout_width">@dimen/counter_button_size</item>
-        <item name="android:layout_height">@dimen/counter_button_size</item>
+        <item name="android:layout_width">@dimen/counterButtonSize</item>
+        <item name="android:layout_height">@dimen/counterButtonSize</item>
     </style>
 
     <style name="tightButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/regular_margin</item>
-        <item name="android:layout_marginLeft">@dimen/regular_margin</item>
-        <item name="android:layout_marginRight">@dimen/regular_margin</item>
-        <item name="android:paddingLeft">@dimen/regular_button_padding</item>
-        <item name="android:paddingRight">@dimen/regular_button_padding</item>
-        <item name="android:textSize">@dimen/regular_text_size</item>
+        <item name="android:layout_marginTop">@dimen/regularMargin</item>
+        <item name="android:layout_marginLeft">@dimen/regularMargin</item>
+        <item name="android:layout_marginRight">@dimen/regularMargin</item>
+        <item name="android:paddingLeft">@dimen/regularButtonPadding</item>
+        <item name="android:paddingRight">@dimen/regularButtonPadding</item>
+        <item name="android:textSize">@dimen/regularTextSize</item>
     </style>
 
     <style name="wideButton">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/regular_margin</item>
-        <item name="android:layout_marginLeft">@dimen/regular_margin</item>
-        <item name="android:layout_marginRight">@dimen/regular_margin</item>
-        <item name="android:textSize">@dimen/regular_text_size</item>
+        <item name="android:layout_marginTop">@dimen/regularMargin</item>
+        <item name="android:layout_marginLeft">@dimen/regularMargin</item>
+        <item name="android:layout_marginRight">@dimen/regularMargin</item>
+        <item name="android:textSize">@dimen/regularTextSize</item>
     </style>
 
     <style name="horizontalLine">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
         <item name="android:background">@color/colorPrimaryDark</item>
-        <item name="android:layout_marginTop">@dimen/regular_margin</item>
-        <item name="android:layout_marginLeft">@dimen/regular_margin</item>
-        <item name="android:layout_marginRight">@dimen/regular_margin</item>
+        <item name="android:layout_marginTop">@dimen/regularMargin</item>
+        <item name="android:layout_marginLeft">@dimen/regularMargin</item>
+        <item name="android:layout_marginRight">@dimen/regularMargin</item>
     </style>
 
 </resources>

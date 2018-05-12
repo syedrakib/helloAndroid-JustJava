@@ -17,9 +17,9 @@
             android:id="@+id/customer_name_field"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/regular_margin"
-            android:layout_marginLeft="@dimen/regular_margin"
-            android:layout_marginRight="@dimen/regular_margin"
+            android:layout_marginTop="@dimen/regularMargin"
+            android:layout_marginLeft="@dimen/regularMargin"
+            android:layout_marginRight="@dimen/regularMargin"
             android:hint="@string/your_name"
             android:inputType="textCapWords"
             android:textAllCaps="true"
@@ -33,8 +33,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/regular_margin"
-            android:layout_marginLeft="@dimen/regular_margin"
+            android:layout_marginTop="@dimen/regularMargin"
+            android:layout_marginLeft="@dimen/regularMargin"
             android:orientation="horizontal"
             tools:ignore="RtlHardcoded">
 
@@ -48,11 +48,11 @@
                 android:id="@+id/quantity_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/regular_margin"
-                android:layout_marginRight="@dimen/regular_margin"
+                android:layout_marginLeft="@dimen/regularMargin"
+                android:layout_marginRight="@dimen/regularMargin"
                 android:text="----"
                 android:textColor="#000"
-                android:textSize="@dimen/regular_text_size"
+                android:textSize="@dimen/regularTextSize"
                 android:textStyle="bold"
                 tools:ignore="HardcodedText"
                 />
@@ -129,15 +129,15 @@
             <TextView
                 style="@style/regularText"
                 android:id="@+id/order_summary_text_view"
-                android:layout_marginTop="@dimen/small_margin"
+                android:layout_marginTop="@dimen/smallMargin"
                 android:text="---"
                 tools:ignore="HardcodedText" />
 
             <Button
                 style="@style/wideButton"
                 android:id="@+id/confirmation_button"
-                android:layout_marginTop="@dimen/small_margin"
-                android:layout_marginBottom="@dimen/regular_margin"
+                android:layout_marginTop="@dimen/smallMargin"
+                android:layout_marginBottom="@dimen/regularMargin"
                 android:text="@string/confirm"
                 android:onClick="confirmOrder"
                 />

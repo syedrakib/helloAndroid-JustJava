@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="counter_button_size">48dp</dimen>
-    <dimen name="regular_button_padding">48dp</dimen>
+    <dimen name="counterButtonSize">48dp</dimen>
+    <dimen name="regularButtonPadding">48dp</dimen>
 
-    <dimen name="small_margin">8dp</dimen>
-    <dimen name="regular_margin">16dp</dimen>
-    <dimen name="large_margin">24dp</dimen>
+    <dimen name="smallMargin">8dp</dimen>
+    <dimen name="regularMargin">16dp</dimen>
+    <dimen name="largeMargin">24dp</dimen>
 
-    <dimen name="regular_text_size">16sp</dimen>
+    <dimen name="regularTextSize">16sp</dimen>
 </resources>
