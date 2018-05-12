@@ -47,8 +47,8 @@
             >
 
             <Button
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="@dimen/counter_button_size"
+                android:layout_height="@dimen/counter_button_size"
                 android:onClick="decrementQuantity"
                 android:text="-"
                 tools:ignore="HardcodedText"
@@ -68,8 +68,8 @@
                 />
 
             <Button
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="@dimen/counter_button_size"
+                android:layout_height="@dimen/counter_button_size"
                 android:onClick="incrementQuantity"
                 android:text="+"
                 tools:ignore="HardcodedText"
